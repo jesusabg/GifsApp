@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+html,body{
+ height: 100%; 
+ 
+}
+body{
+    background-color:#212529f5;
+}
+#sidebar{
+    height: 100%;
+    min-height: 100vh;
+    min-width: 180px;
+}
+
+h3{
+    text-align: center;
+}
+a{
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.borrar-historial{
+    font-size: 18px;
+    
+}
+hr{
+    color: #fff;
+}
+.container-gifs{
+    columns: 4 250px ;
+    box-sizing: border-box;
+    gap: 0;
+}
+.card,img,.container-gifs{
+    border: 0px;
+}

@@ -1,0 +1,9 @@
+<div class="bg-dark  p-3" id="sidebar">
+    <h3 class="text-light">Gifs Historial</h3>
+    <hr class="text-light">
+    <a href="#" class="list-group-item list-group-item-action text-center bg-danger text-light mb-2 borrar-historial" (click)="borrar()" *ngIf="validarStorage()==true">Borrar Historial</a>
+    <hr>
+    <div class="list-group list-reset mb-2" *ngFor="let item of historial">
+      <a href="#" class="list-group-item list-group-item-action text-center bg-warning text-light" (click)="buscar(item)">{{item | titlecase}}</a>
+    </div>
+  </div>

@@ -1,0 +1,7 @@
+<div class="container-gifs">
+    <div *ngFor="let gif of resultados" class=" animate__animated animate__fadeIn  container-child">
+        <div class="card">
+            <img [src]="gif.images.downsized.url" [alt]="gif.title" class="card-img-top">
+        </div>
+    </div>
+</div>
